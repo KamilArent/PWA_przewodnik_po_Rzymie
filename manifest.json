@@ -1,0 +1,15 @@
+{
+    "name": "Przewodnik po Rzymie",
+    "short_name": "Rzym APP",
+    "theme_color": "#129970",
+    "background_color": "#129970",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/PWA_przewodnik_po_Rzymie/index.html",
+    "icons": {
+        "src": "zdj/ikona.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+}

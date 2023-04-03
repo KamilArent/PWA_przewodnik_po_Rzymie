@@ -10,7 +10,7 @@ html {
 
 header {
     height: 100vh;
-    background-image: url(flaga.jpg);
+    background-image: url(zdj/flaga.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
