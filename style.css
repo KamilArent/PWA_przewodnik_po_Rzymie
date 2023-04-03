@@ -33,6 +33,12 @@ header a {
     border-radius: 10px;
     border: solid;
     border-color: blue;
+    text-align: center;
+}
+
+.single_place {
+    padding-top: 5%;
+    text-align: center;
 }
 
 .single_place img {
