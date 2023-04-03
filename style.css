@@ -9,16 +9,16 @@ html {
 }
 
 header {
-    display: flex;
     height: 100vh;
     background-image: url(flaga.jpg);
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 section {
@@ -35,7 +35,7 @@ header a {
     border-color: blue;
 }
 
-#single_place img {
+.single_place img {
     width: 100%;
     object-fit: cover;
     display: grid;
