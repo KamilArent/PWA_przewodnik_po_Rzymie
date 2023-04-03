@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    height: 100vh;
+    background-image: url(flaga.jpg);
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    padding: 20%;
+}
+
+header a {
+    color: black;
+    background-color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid;
+    border-color: blue;
+}
+
+#single_place img {
+    width: 100%;
+    object-fit: cover;
+    display: grid;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+footer {
+    background-color: blue;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    
+}*/
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .all_places {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .single_place {
+        width: 47%;
+    }
+
+    .single_place img {
+        height: 250px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) 
+@media (min-width: 992px) {
+
+}*/
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .single_place {
+        width: 23%;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
